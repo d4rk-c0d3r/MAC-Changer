@@ -1,0 +1,12 @@
+""""Welcome to the MAC Changer Tool""""
+---------------------------------------------------------------------------------------------------------------------------------------------
+This tool works on only Linux based environments
+
+The main function of this tool is to change the MAC address of the various interfaces, except for loopback address, for obvious reasons.
+
+It is very easy to use.
+After installing the tool the user has to just run the program with the arguments.
+Now to check what are the available options that the user can enter, please use the --help command, which shows the list of available arguments to use along with the tool.
+
+Ex: python mac_changer.py -i/--interface [interface] -m/--mac [MAC]
+
